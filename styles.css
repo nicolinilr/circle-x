@@ -5,4 +5,90 @@ hmtl, body{
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+header p {
+    font-size: 2rem;
+    font-weight: 700;
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li {
+    margin: 0 0.5em;
+    font-size: 1.5em;
+}
+
+a:link {
+    color: black;
+}
+
+ a:visited{
+    color: gray;
+}
+
+main {
+    display: block;
+    margin: 0 1rem;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#about-me h1 {
+    flex-basis: 100%;
+    font-size: 2em;
+}
+
+#about-me p {
+    flex-basis: 70%;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+#personal-pic-container {
+    flex-basis: 25%;
+    
+}
+
+#personal-pic-container img{
+    width: 100%;
+    height: auto;
+}
+
+#projects h2 {
+    font-size: 2em;
+}
+
+#projects ul {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+    font-size: 1.5em;
+}
+
+i {
+    font-size: 50px;
+    margin: 0 1rem;
+}
+
+#contact-wrapper p {
+    font-size: 1.5rem;
+}
+
+#contact-img-container a:link {
+    color: black;
+}
+
+#contact-img-container a:visited {
+    color: black;
 }
