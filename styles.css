@@ -83,6 +83,7 @@ i {
 
 #contact-wrapper p {
     font-size: 1.5rem;
+    margin: 1em 0.5em;
 }
 
 #contact-img-container a:link {
@@ -91,4 +92,46 @@ i {
 
 #contact-img-container a:visited {
     color: black;
+}
+
+@media only screen and (max-width: 600px){
+   html, body {
+       font-size: 24px;
+   }
+    header {
+        flex-flow: column;
+    }
+
+    header p {
+        text-align: center;
+    }
+
+    nav ul{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+
+    #about-me {
+        flex-flow: column;
+    }
+
+    #about-me p {
+        text-align: center;
+    }
+
+    #skills-img-container {
+        text-align: center;
+    }
+    
+    i {
+        font-size: 150px;
+    }
+   
+    #contact-img-container {
+        text-align: center;
+    }
 }
